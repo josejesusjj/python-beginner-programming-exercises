@@ -1,8 +1,8 @@
 import random
 
 # your code here
-def generate_random ():
-    random_number=random.randint(0, 9)
-    return random_number
+def generate_random():
+    return random.randint(0, 9)
     
-print(generate_random())
+print(random.randrange(10))
+   
