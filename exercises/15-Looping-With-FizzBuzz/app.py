@@ -1,7 +1,9 @@
 def fizz_buzz():
     # your code here
-    for i in range(100):
-        if i % 15 == 0:
+    for i in range(101):
+        if i== 0:
+            pass
+        elif i % 15 == 0:
             print("FizzBuzz")
         elif i % 3 == 0:
             print("Fizz")
