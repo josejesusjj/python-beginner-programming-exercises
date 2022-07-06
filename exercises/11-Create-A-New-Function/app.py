@@ -2,7 +2,9 @@ import random
 
 # your code here
 def generate_random():
-    return random.randint(0, 9)
+    random_number = random.randint(0, 9)
+    print(random_number)
+    return random_number
     
-print(random.randrange(10))
+
    

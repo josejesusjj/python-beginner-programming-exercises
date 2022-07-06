@@ -1,7 +1,7 @@
 def addNumbers(a,b):
 	# This is the function body. Write your code here.
-	adding = a + b
-	return adding
+	add = a + b
+	return add
 
   
 
